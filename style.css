@@ -1,0 +1,42 @@
+body{
+    background-color: #1E2436;
+}
+
+.heading{
+    text-align: center;
+    font-size: 44px;
+    color: #e5e5e5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.links-container{
+    text-align: center;
+}
+
+.recipe-list a{
+    text-decoration: none;
+}
+
+.recipe-list a:link{
+    color: #fff;
+}
+
+.recipe-list a:visited{
+    color: #fff;
+}
+
+.recipe-list a:hover{
+    color: #aadd80;
+}
+
+.recipe-list{
+    display: inline-block;
+    list-style-type: none;
+    text-align: left;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.recipe-list-item{
+    margin-bottom: 20px;
+}
