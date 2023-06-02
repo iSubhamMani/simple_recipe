@@ -10,7 +10,7 @@ body{
 }
 
 .links-container{
-    text-align: center;
+    text-align: left;
 }
 
 .recipe-list a{
@@ -32,8 +32,7 @@ body{
 .recipe-list{
     display: inline-block;
     list-style-type: none;
-    text-align: left;
-    font-size: 24px;
+    font-size: 36px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 

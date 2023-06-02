@@ -1,4 +1,55 @@
-.recipe-image{
-    width: 640px;
-    height: auto;
+@font-face {
+    font-family: poppins;
+    src: url(./fonts/Poppins-Regular.ttf);
+    font-style: normal;
+    font-weight: 100;
 }
+
+*{
+    font-family: poppins;
+}
+
+body{
+    background-color: #1E2436;
+    margin: 0;
+}
+
+.recipe-name, .recipe-description-heading, .recipe-ingredients-heading, .recipe-instruction-heading{
+    color: #aadd80;
+    font-size: 30px;
+}
+
+.recipe-container h1{
+    margin: 0;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 3px;
+    font-size: 40px;
+}
+
+.recipe-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.recipe-image{
+    max-width: 50vw;
+    max-height: 50vh;
+    border: 2px solid #fff;
+    border-radius: 10px;
+
+}
+
+.text-box{
+    margin-right: 15px;
+    color: #fff;
+}
+
+.recipe-description-text, .recipe-ingredients-list, .recipe-instruction-list{
+    font-size: 24px;
+}
+
+
+
+
+
