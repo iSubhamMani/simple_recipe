@@ -1,12 +1,22 @@
-body{
-    background-color: #1E2436;
+@font-face {
+    font-family: poppins;
+    src: url(./fonts/Poppins-Regular.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+*{
+    font-family: poppins;
 }
 
 .heading{
     text-align: center;
     font-size: 44px;
     color: #e5e5e5;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #1E2436;
 }
 
 .links-container{
@@ -33,7 +43,6 @@ body{
     display: inline-block;
     list-style-type: none;
     font-size: 36px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .recipe-list-item{
