@@ -80,11 +80,11 @@ body{
 
 .card p{
     color: #020000;
-    padding: 10px;
+    padding: 10px 16px;
     font-size: 24px;
 }
 
-@media(max-width:768px){
+@media(max-width:900px){
     .cards .container{
         flex-direction: column;
         justify-content: center;
